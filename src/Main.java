@@ -8,7 +8,7 @@ public class Main
 
         int number = random.nextInt(1, 10);
 
-        System.out.println(number);
+        System.out.println(number);//some
     }
 }
 

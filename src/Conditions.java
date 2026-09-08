@@ -9,7 +9,7 @@ public static void IfElse()
     String password = scanner.nextLine();
 
     if (password.length() <= 5 || password.length() >= 50)
-        IO.println("Длина пароля меня не удовлетворяет");
+        IO.println("Длина пароля меня не удовлетворяет ");
 
     else if (password.equals("password") || password.equals(oldPassword) || password.contains("$"))
         IO.println("Ваш пароль слишком прост");

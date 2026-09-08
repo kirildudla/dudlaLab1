@@ -26,6 +26,6 @@ void main()
 
     catch (NullPointerException e)
     {
-        IO.println("NPE: распаковка Integer null");
+        IO.println("NPE: распаковка Integer null ");
     }
 }
