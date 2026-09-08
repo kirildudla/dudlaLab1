@@ -28,7 +28,7 @@ static void While() {
     int n = random.nextInt(1, 151);
     int guess = 0;
 
-    IO.println("Угадайте число от 0 от 150 ");
+    IO.println("Угадайте число от 0 от 150");
 
     while (guess != n || guess != 555) {
         IO.print("Гадай: ");

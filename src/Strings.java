@@ -22,7 +22,7 @@ static void First() // Продемонстрировать: замену в с�
     int indStart = scanner.nextInt();
     scanner.nextLine();
 
-    IO.print("Введите индекс, до которого нужно обрезание:  ");
+    IO.print("Введите индекс, до которого нужно обрезание: ");
     int indEnd = scanner.nextInt();
     scanner.nextLine();
 
