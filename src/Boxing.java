@@ -15,6 +15,21 @@ void main()
     Long autoL = l;
     long unboxL = lw;
 
+    IO.println("i = " + i);
+    IO.println("iw = " + iw);
+    IO.println("auto = " + auto);
+    IO.println("unbox = " + unbox);
+
+    IO.println("b = " + b);
+    IO.println("bw = " + bw);
+    IO.println("autoB = " + autoB);
+    IO.println("unboxB = " + unboxB);
+
+    IO.println("l = " + l);
+    IO.println("lw = " + lw);
+    IO.println("autoL = " + autoL);
+    IO.println("unboxL = " + unboxL);
+
     IO.println(i + iw);
     IO.println(l + lw);
 
@@ -23,9 +38,8 @@ void main()
         Integer npe = null;
         int x = npe;
     }
-
     catch (NullPointerException e)
     {
-        IO.println("NPE: распаковка Integer null ");
+        IO.println("NPE: распаковка Integer null");
     }
 }
